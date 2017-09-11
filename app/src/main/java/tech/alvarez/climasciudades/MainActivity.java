@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
                     Log.i("MIAPP", "Temp: " + c.getMain().getTemp());
                     Log.i("MIAPP", "Humedad: " + c.getMain().getHumidity());
+                    Log.i("MIAPP", "Ciudad: " + c.getNombre());
 
                 }
             }
